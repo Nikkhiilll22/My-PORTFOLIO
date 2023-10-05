@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>NIKHIL's PORTFOLIO</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        margin: 0px;
+        padding: 0px;
+      }
+      body {
+        background-color: rgb(1, 11, 45);
+        color: white;
+      }
+
+      nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 80px;
+        background-color: rgb(5, 46, 84);
+      }
+      nav ul {
+        display: flex;
+        justify-content: center;
+      }
+      nav ul li{
+        list-style: none;
+        margin: 0 23px;
+      }
+      nav ul li a{
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+      }
+      nav ul li a:hover{
+       color: rgb(184, 184, 239);
+       font-size: 1.01rem;
+      }
+      main hr{
+        border:0;
+        background: #9c97f1;
+        height: 1.2px;
+        margin: 40px 84px;
+      }
+      .left{
+        font-size: 1.5rem;
+      }
+      .firstsection{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 120px  0;
+      }
+
+      .firstsection >div{
+        width: 60%;
+      }
+
+      .leftsection{
+        font-size: 3.5rem;
+        margin: 80px 0;
+        
+      }
+
+      .rightsection img{
+        width: 80%;
+      }
+      .purple{
+        color: rgb(119, 19, 149);
+      }
+      .about{
+        color: rgb(159, 199, 234);
+        font-size: 1.5rem ;
+      }
+      .gray{
+        color: #847078f3;
+        position: relative;
+        top: -10px;
+      }
+      
+      #element{
+        color: rgb(119, 19, 149);
+      }
+      .secondsection{
+        max-width: 80vw;
+        margin:auto;
+        
+      }
+      .secondsection h1{
+        font-size: 2rem;
+      }
+      .thirdsection{
+        max-width: 80vw;
+        margin: auto;
+        height: 80vh;
+      }
+      .thirdsection h1{
+        font-size: 2rem;
+        position: relative;
+        top: -10px;
+      }
+      .thirdsection .box{
+        background: white;
+        width: 76vw;
+        height: 2px;
+        margin: 56px 0;
+        display: flex;
+        right: 250px;
+      }
+      .thirdsection .vertical{
+        height: 93px;
+        width: 1px;
+        background-color: white;
+        margin: 0 100px;
+      }
+      .image-top{
+        width: 60px;
+        position: relative;
+        top: -62px;
+        left: -19px;
+      }
+      .atc-title{
+        position: relative;
+        top: 75px;
+        width: 150px;
+      }
+      .vertical-para{
+        position: relative;
+        top: 15px;
+        color: gray;
+        width: 150px;
+        font-size: 10px;
+
+      }
+      .iste-image {
+    position: relative;
+    width: 60px;
+    top: -62px;
+    left: -19px;
+}
+.ISTE-title {
+    width: 150px;
+    position: relative;
+    top: 10px;
+}
+
+.iste-para {
+    position: relative;
+    width: 150px;
+    color: gray;
+    top: 50px;
+    font-size: 10px;
+}
+.python-image {
+    position: relative;
+    width: 60px;
+    top: -62px;
+    left: -20px;
+}
+
+.python-title{
+    position: relative;
+    width: 150px;
+    top: 15px;
+}
+
+.python-para{
+    width: 150px;
+    position: relative;
+    color: gray;
+    top: 50px;
+    font-size: 10px;
+}
+
+.web-image{
+    position: relative;
+    width: 100px;
+    top: -62px;
+
+}
+
+.web-title{
+    position: relative;
+    top: 18px;
+    width: 150px
+
+}
+
+.web-para{
+    position: relative;
+    width: 150px;
+    color: gray;
+    top: 50px;
+    font-size: 10px;
+
+
+}
+.japan-image{
+    position: relative;
+    width: 80px;
+    top: -70px;
+
+}
+.japan-title{
+    position: relative;
+    top: 4px;
+    width: 150px;
+}
+
+.japan-para{
+    position: relative;
+    color: gray;
+    font-size: 10px;
+    width: 150px;
+    top: 40px;
+
+} 
+.footer{
+    display: flex;
+    height: 203px;
+    padding: 23px 90px;
+    justify-content: space-evenly;
+}
+footer{
+    background-color: rgb(40, 40, 95);
+    
+}
+
+a:link {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: pink;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+.second-footer ul{
+    list-style: disc;
+    font-size: 20px;
+    line-height: 2em;
+    float: right;
+}
+.third-footer ul{
+    list-style: disc;
+    font-size: 20px;
+    line-height: 2em;
+    float: right;
+}
+.leftsection .btn{
+    padding: 12px;
+    background-color: #101559f3;
+    border: 2px solid white;
+    border-radius: 6px;
+    font-size: 20px;
+    position: relative;
+    left: 140px;
+    color: white;
+    cursor: pointer;
+
+}
+.leftsection button{
+    padding: 20px;
+}
+    </style>
+  </head>
+  
+  <body>
+    <header>
+      <nav>
+        <div class="left">NIKHIL's PORTFOLIO</div>
+        <div id="left"></div>
+        <div class="right">
+          <ul>
+            <li><a href="#left">Home</a></li>
+            <li><a href="#2">About me</a></li>
+            <li><a href="#3">Experience</a></li>
+
+            <li><a href="#5">Contact me</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+  </body>
+  <body>
+    <header>
+    </header>
+
+    <main>
+        <section class="firstsection">
+            <div class="leftsection"
+            <div id="2"</div>
+               
+                Hi, My name is <span class="purple">Nikhil</span>
+            <div>and i am a passionate </div>
+            <div>Learner.</div>
+        
+            <span id="element"></span>
+            <div class="buttons">
+                <button class="btn">
+                    <a href="file:///C:/Users/nikkh/Downloads/nikhil%20new%20resume.pdf">Download Resume</a>
+                </button>
+                
+            </div>
+            </div>
+            <div class="rightsection">
+<img src="C:\Users\nikkh\Downloads\images\pngwing.com.png" alt="">
+            </div>
+        </section>
+<hr>        
+        <section class="secondsection">
+             <h1>About me</h1>
+             <div id="secondsection">
+            <div class="about">I am currently pursuing my B.Tech 3rd year in Computer Science Branch
+                from SRM University. i am currently grasping knowledge in python and
+                data science. I can learn things easily and start implementing. I Learn and
+                share my opinions and Ideas to others for Knowledge sharing</div>
+            </div>
+        </section>
+        <hr>
+        <section class="thirdsection">
+            <div id="3"></div>
+            <span class="gray">What i have done so far</span>
+            <h1>Work Experience</h1>
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="C:\Users\nikkh\Downloads\images\images.jpeg" alt="">
+                    <div class="atc-titile">
+                        ATC Engineering-INTERN
+                        <span>
+                            (Sept'23-present)
+                        </span>
+                    </div>
+                    <div class="vertical-para">
+                        Intern at ATC Engineering. Currently doing training and
+gaining knowledge about Ladder logic programming and
+about PLCs. 
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="iste-image" src="C:\Users\nikkh\Downloads\images\download.jpeg" alt="">
+                    <div class="ISTE-title">
+                        ISTE Core member
+                    </div>    
+                        <div class="iste-para">
+                            Core member at this prestigious organization Indian
+Society for technical organization under social media
+team. Our main motive is to spread the awareness about
+the group through different social media platforms.
+                        </div>
+                </div>
+                <div class="vertical">
+                    <img class="python-image" src="C:\Users\nikkh\Downloads\images\png-transparent-python-logo-thumbnail.png" alt="">
+                <div class="python-title">
+                    Python
+                </div>
+                 <div class="python-para">
+                    Learned python language and about gui programming, numpy and sql.
+                 </div>
+                </div>
+                <div class="vertical">
+                    <img class="web-image" src="C:\Users\nikkh\Downloads\images\web-development-responsive-web-design-logo-png-favpng-33b9LbcjDA603DqSJYZBS6KTv.jpg" alt="">
+                      <div class="web-title">
+                        Web developer
+                      </div>
+                    <div class="web-para">
+                        A web developer and created projects like instagram clone using Html and CSS.
+                    </div>      
+                    </div>
+                <div class="vertical">
+                    <img class="japan-image" src="C:\Users\nikkh\Downloads\images\png-transparent-japan-torii-idea-sticker-t-shirt-japan-logo-sticker-art.png" alt="">
+                <div class="japan-title">
+                    Japanese
+                </div>
+                <div class="japan-para">
+                    Learned japanese till N5 level. Fluent in writing and reading Japanese and intermediate in speaking.
+                </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+       <section class="contacts">
+        <div class="footer">
+            <div id="5"></div>
+        <div class="first-footer">
+            <h3>NIKHIL's PORTFOLIO</h3>
+        </div>
+        <div class="second-footer">
+            <ul>
+                <li><a href="https://www.linkedin.com/in/nikhil-bhati-ba2317260/">linkedin</a></li>
+                <li><a href="https://github.com/Nikkhiilll22">github</a></li>
+                <li><a href="https://www.instagram.com/nikkhilll__/">instagram</a></li>
+            </ul>
+        </div>
+        <div class="third-footer">
+            <ul>
+                <li><a href="file:///C:/Users/nikkh/Downloads/nikhil%20new%20resume.pdf">Resume</a></li>
+                <li>Contact Me:
+                    <span>
+                        +91 8882473048
+                    </span>
+                </li>
+                <li>Gmail: nikkhiilll.221@gmail.com</li>
+            </ul>
+        </div>
+        <div class="fourth-footer"></div>
+        </div>
+    </section>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['Python developer','Web developer','Computer science engineer'],
+          typeSpeed: 50,
+        });
+      </script>
+  </body>
+</html>
